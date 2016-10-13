@@ -236,7 +236,7 @@ interface MediaProviderInterface
      * @param ErrorElement   $errorElement
      * @param MediaInterface $media
      */
-    public function validate(ErrorElement $errorElement, MediaInterface $media);
+    public function validate($errorElement, MediaInterface $media);
 
     /**
      * @param FormBuilder $formBuilder

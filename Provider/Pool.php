@@ -250,7 +250,7 @@ class Pool
      * @param \Sonata\AdminBundle\Validator\ErrorElement $errorElement
      * @param \Sonata\MediaBundle\Model\MediaInterface   $media
      */
-    public function validate(ErrorElement $errorElement, MediaInterface $media)
+    public function validate($errorElement, MediaInterface $media)
     {
         $provider = $this->getProvider($media->getProviderName());
 

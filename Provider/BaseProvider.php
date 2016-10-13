@@ -280,7 +280,7 @@ abstract class BaseProvider implements MediaProviderInterface
     /**
      * {@inheritdoc}
      */
-    public function validate(ErrorElement $errorElement, MediaInterface $media)
+    public function validate($errorElement, MediaInterface $media)
     {
     }
 }

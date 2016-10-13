@@ -351,7 +351,7 @@ class FileProvider extends BaseProvider
     /**
      * {@inheritdoc}
      */
-    public function validate(ErrorElement $errorElement, MediaInterface $media)
+    public function validate($errorElement, MediaInterface $media)
     {
         if (!$media->getBinaryContent() instanceof \SplFileInfo) {
             return;
